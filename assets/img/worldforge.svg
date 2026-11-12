@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" fill="none">
+  <title>The Goblin’s Worldforge</title>
+  <desc>An original goblin developer with asymmetric ears, copper goggles and a leather apron, working at an enchanted computer in a dark workshop.</desc>
+  <defs>
+    <radialGradient id="room"><stop stop-color="#20463b" stop-opacity=".55"/><stop offset="1" stop-color="#111716" stop-opacity="0"/></radialGradient>
+    <radialGradient id="light"><stop stop-color="#63efae" stop-opacity=".36"/><stop offset="1" stop-color="#35c98a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#46544d"/><stop offset=".45" stop-color="#27332e"/><stop offset="1" stop-color="#17211e"/></linearGradient>
+    <linearGradient id="brass" x2=".8" y2="1"><stop stop-color="#d0b37b"/><stop offset=".5" stop-color="#8c7245"/><stop offset="1" stop-color="#4a412e"/></linearGradient>
+    <linearGradient id="skin" x2=".8" y2="1"><stop stop-color="#a3bd79"/><stop offset=".48" stop-color="#708b52"/><stop offset="1" stop-color="#334e35"/></linearGradient>
+    <linearGradient id="ear" x2=".5" y2="1"><stop stop-color="#7e915e"/><stop offset="1" stop-color="#3e563b"/></linearGradient>
+    <linearGradient id="leather" x2=".8" y2="1"><stop stop-color="#655140"/><stop offset="1" stop-color="#2e3028"/></linearGradient>
+    <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#6c5d43"/><stop offset=".13" stop-color="#3c3d2e"/><stop offset="1" stop-color="#222b25"/></linearGradient>
+    <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#173f30"/><stop offset="1" stop-color="#10211d"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#b7f5cd" stop-opacity=".65"/><stop offset=".25" stop-color="#38765a" stop-opacity=".4"/><stop offset="1" stop-color="#1e382d" stop-opacity=".8"/></linearGradient>
+    <pattern id="rivets" width="38" height="12" patternUnits="userSpaceOnUse"><circle cx="19" cy="6" r="2" fill="#a28b5c"/></pattern>
+  </defs>
+  <!-- One continuous room: architecture, equipment, character, bench. -->
+  <ellipse cx="900" cy="435" rx="560" ry="430" fill="url(#room)"/>
+  <path d="M572 649V229Q572 93 706 93H1127Q1260 93 1260 229V649" stroke="#28352e" stroke-width="23"/>
+  <path d="M590 650V231Q590 111 708 111H1126Q1242 111 1242 231V650" stroke="#52604a" stroke-opacity=".24" stroke-width="2"/>
+  <path d="M713 113V647M1121 113V647M589 263H1241" stroke="#26382e" stroke-width="9"/>
+  <path d="M1264 175H1320V521H1260M1304 193V506" stroke="#3f4534" stroke-width="9"/>
+  <path d="M668 80V36H1095V79" stroke="#313c31" stroke-width="12"/>
+  <path d="M785 38V91" stroke="#6c6548" stroke-width="4"/>
+  <path d="m748 109 37-31 39 31 16 19h-108z" fill="url(#brass)"/>
+  <path d="M747 129H824L864 319H708Z" fill="#b4cc88" opacity=".035"/>
+  <path d="M752 129H817" stroke="#d4cb98" stroke-width="3"/>
+  <!-- Wall shelves and small workshop objects. -->
+  <path d="M1095 328H1323M1142 444H1366" stroke="#6a6147" stroke-width="12"/>
+  <path d="M1112 337V355M1300 337V355M1156 453V471M1343 453V471" stroke="#333e32" stroke-width="8"/>
+  <g stroke="#82764f" stroke-width="2">
+    <path d="M1130 310V262H1148V310Z" fill="#3e4c37"/>
+    <path d="M1154 310V251H1175V310Z" fill="#5b543b"/>
+    <path d="m1181 310-8-55 19-3 8 58" fill="#303f34"/>
+  </g>
+  <path d="M1251 310V293L1233 263V242H1258V263L1279 293V310Z" fill="#254836" stroke="#677555" stroke-width="3"/>
+  <path d="M1243 283H1269L1277 299V307H1253V296Z" fill="#4f9d6b" opacity=".6"/>
+  <path d="M1228 239H1263" stroke="#a38c5e" stroke-width="6"/>
+  <path d="M1208 429V385L1222 370H1243L1257 385V429Z" fill="#273e2f" stroke="#6d7d58" stroke-width="3"/>
+  <path d="M1222 368V353H1243V368" stroke="#95815a" stroke-width="5"/>
+  <path d="M1215 402H1250V423H1215Z" fill="#74ba73" opacity=".3"/>
+  <path d="M1282 427V376H1322V427" fill="#3e4434" stroke="#7a6f4c" stroke-width="3"/>
+  <path d="M1290 385H1314M1290 397H1309M1290 409H1314" stroke="#a58e5d" stroke-width="2"/>
+  <!-- The enchanted development terminal, mounted to the bench. -->
+  <path d="m501 380 264-42 32 236-265 32Z" fill="#111c17" stroke="url(#brass)" stroke-width="9"/>
+  <path d="m516 392 234-37 27 206-234 31Z" fill="url(#screen)" stroke="#455d42" stroke-width="2"/>
+  <path d="m528 405 208-32" stroke="#5f9c67" stroke-opacity=".5" stroke-width="2"/>
+  <g stroke-linecap="round" stroke-width="4">
+    <path d="m539 434 12 7-9 10m30-20 37-5m-65 45 15 7-12 11m23-19 54-9m-50 28 86-13m-78 32 40-6m-36 24 74-12m-87-93 30-5m-20 25 40-6m-13 40 31-5m-82 54 27-4" stroke="#70cc91" opacity=".8"/>
+    <path d="m631 421 52-8m-54 49 56-8m-93 81 47-7" stroke="#c4d299" opacity=".65"/>
+  </g>
+  <path d="m649 591 8 52 65-6-15-58" fill="url(#metal)" stroke="#596048" stroke-width="3"/>
+  <path d="m623 651 122-13 20 17-145 17Z" fill="#293a2d" stroke="#70694a" stroke-width="3"/>
+  <circle cx="760" cy="574" r="4" fill="#84de9e"/>
+  <!-- Goblin silhouette: asymmetric long ears, swept hair and copper goggles. -->
+  <path d="M834 589Q818 503 859 463L1030 460Q1075 497 1090 598L1139 684H787Z" fill="#202e27" stroke="#111c18" stroke-width="6"/>
+  <path d="m878 459-26 33 29 157h158l15-150-35-40" fill="url(#leather)" stroke="#847050" stroke-width="3"/>
+  <path d="m883 470 12 117m120-115-11 116" stroke="#a28a5b" stroke-width="11"/>
+  <path d="m898 577 103-2-3 49-93 1Z" fill="#354038" stroke="#897451" stroke-width="3"/>
+  <path d="m931 592 12-9 10 9-10 15Z" fill="#a29365"/>
+  <path d="M871 393Q813 388 758 325Q817 315 875 346Z" fill="url(#skin)" stroke="#202e23" stroke-width="5"/>
+  <path d="M857 369Q813 351 788 337Q835 336 865 354" fill="#465a3c"/>
+  <path d="M1012 339Q1052 311 1111 279Q1117 344 1031 397Z" fill="url(#ear)" stroke="#233325" stroke-width="5"/>
+  <path d="M1040 349Q1078 325 1096 303Q1085 348 1045 371" fill="#3a4d34"/>
+  <path d="M855 344Q861 278 932 274Q1015 276 1034 339L1031 413Q1019 462 970 479Q902 484 870 433Z" fill="url(#skin)" stroke="#273a29" stroke-width="5"/>
+  <path d="M854 342Q842 306 873 282L864 257L905 268L921 235L944 262L976 244L980 272Q1030 277 1040 325L1013 312L1009 334L980 299L955 316L930 290L904 322L882 310L874 350Z" fill="#1a2620" stroke="#344331" stroke-width="4"/>
+  <path d="m905 284 18-12m24 10 21-9m31 21 14 8" stroke="#667046" stroke-width="3"/>
+  <path d="M858 348Q944 309 1035 339" stroke="#3d3327" stroke-width="12"/>
+  <path d="M874 324Q893 302 918 316L928 342Q919 363 887 355Z" fill="url(#brass)" stroke="#332f25" stroke-width="4"/>
+  <path d="M949 315Q977 294 1001 311L1012 339Q995 361 964 349Z" fill="url(#brass)" stroke="#332f25" stroke-width="4"/>
+  <path d="M884 325Q898 314 912 325L917 340Q903 350 890 343Z" fill="url(#glass)"/>
+  <path d="M960 319Q977 308 993 319L999 336Q982 348 969 338Z" fill="url(#glass)"/>
+  <path d="m927 329 23-4" stroke="#b29a64" stroke-width="8"/>
+  <path d="M886 387Q901 366 925 376M968 373Q991 358 1010 375" stroke="#34472d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M889 390Q904 379 922 389Q907 407 889 390Z" fill="#dbd9aa"/>
+  <path d="M973 383Q988 371 1007 380Q994 398 973 383Z" fill="#dbd9aa"/>
+  <ellipse cx="912" cy="389" rx="5" ry="8" fill="#202f22"/>
+  <ellipse cx="989" cy="381" rx="5" ry="8" fill="#202f22"/>
+  <path d="M944 377 927 414Q944 426 961 412" fill="#8fa866" stroke="#4c6540" stroke-width="3" stroke-linecap="round"/>
+  <path d="M910 436Q946 453 982 427" stroke="#293c29" stroke-width="5" stroke-linecap="round"/>
+  <path d="m923 441 4-17 9 22m29-10 10-17 1 13" fill="#e4d6a6"/>
+  <path d="m886 408 14 4m104-13-12 9" stroke="#a8bc79" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="1057" cy="366" r="8" stroke="url(#brass)" stroke-width="5"/>
+  <!-- Sleeves and hands converge on the working surface. -->
+  <path d="M858 490Q823 480 800 514L746 596 787 624 869 556Z" fill="url(#metal)" stroke="#17261e" stroke-width="5"/>
+  <path d="m757 580 47 28-21 30-50-29Z" fill="#3c4634" stroke="#7e7451" stroke-width="3"/>
+  <path d="M753 612Q730 601 710 618L678 643Q674 655 689 656L715 644 746 649 771 632Z" fill="url(#skin)" stroke="#263e2a" stroke-width="4"/>
+  <path d="m711 624-22 23m33-17-18 18m27-12-11 12" stroke="#486342" stroke-width="2"/>
+  <path d="M1048 488Q1082 478 1107 518L1130 592 1073 614 1036 554Z" fill="url(#metal)" stroke="#17261e" stroke-width="5"/>
+  <path d="m1070 588 56-16 11 32-61 18Z" fill="#3c4634" stroke="#7e7451" stroke-width="3"/>
+  <path d="M1081 609Q1058 606 1036 615L995 643Q988 657 1005 660L1039 643 1074 645 1114 621Z" fill="url(#skin)" stroke="#263e2a" stroke-width="4"/>
+  <path d="m1039 623-32 26m45-22-31 25m44-20-26 22" stroke="#486342" stroke-width="2"/>
+  <!-- Workbench, keyboard, crystal engine and physical tools. -->
+  <ellipse cx="874" cy="801" rx="492" ry="66" fill="#090f0c" opacity=".5"/>
+  <path d="m408 660 773-34 144 76-835 58Z" fill="#4c4d36" stroke="#81714d" stroke-width="4"/>
+  <path d="m490 760 835-58v29l-835 58Z" fill="url(#desk)"/>
+  <path d="m408 660 82 100v29l-82-101Z" fill="#252f25"/>
+  <path d="m535 788 22 67h38l-4-70m603-41-6 100h36l28-104" fill="#202b24" stroke="#4b5039" stroke-width="4"/>
+  <path d="m438 677 732-34m-685 59 702-36m-631 61 674-35" stroke="#a18b59" stroke-opacity=".18" stroke-width="2"/>
+  <path d="m642 660 297-18 65 40-311 24Z" fill="#15241c" stroke="#7e7b52" stroke-width="3"/>
+  <path d="m664 668 263-17m-243 29 261-18m-239 29 260-19m-239-7 21 29m5-31 22 30m6-32 22 30m6-32 23 29m5-31 25 29m5-31 25 28m6-30 24 28m5-30 25 28" stroke="#63734d" stroke-width="3"/>
+  <ellipse cx="1174" cy="665" rx="58" ry="21" fill="#182b21" stroke="#8c8055" stroke-width="4"/>
+  <path d="m1129 660 12-56h69l11 56" fill="url(#metal)" stroke="#65714d" stroke-width="3"/>
+  <path d="m1142 601 4-15h57l7 15" stroke="#b39c68" stroke-width="7"/>
+  <path d="m1160 585-18-56 31-63 31 61-18 58Z" fill="#55b983" stroke="#a2dba3" stroke-width="3"/>
+  <path d="m1173 466-3 120m-28-57 28 13 34-15m-34 15 16 43" stroke="#d3f3bc" stroke-opacity=".7" stroke-width="2"/>
+  <ellipse cx="1169" cy="554" rx="112" ry="111" fill="url(#light)"/>
+  <path d="m1245 679 24-40 13 8-24 40m-7-16 18 10" stroke="#a69160" stroke-width="6"/>
+  <path d="m512 655 58-5 11 33-58 6Z" fill="#344934" stroke="#8e8056" stroke-width="3"/>
+  <path d="M571 655Q601 652 595 672Q590 682 580 679" stroke="#8e8056" stroke-width="5"/>
+  <path d="m521 646 8-12m7 11 8-14" stroke="#a6c18e" stroke-opacity=".4" stroke-width="2"/>
+  <path d="m613 735 56-6m-44 14 32-4" stroke="#9e8a5a" stroke-width="3"/>
+  <ellipse cx="756" cy="531" rx="270" ry="210" fill="url(#light)" opacity=".36"/>
+</svg>

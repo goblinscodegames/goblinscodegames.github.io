@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" fill="none">
+  <path d="m17 22-15-9 7 22 11 3m27-16 15-9-7 22-11 3" fill="#77b18a"/>
+  <path d="M15 25 22 10l10 5 12-5 6 17-4 20-14 10-14-10Z" fill="#85d8aa"/>
+  <path d="m22 31 8 3-6 5m18-8-8 3 6 5m-14 8 6 3 7-4" stroke="#101a15" stroke-width="3"/>
+  <path d="m21 11 2-7 9 7 10-6 2 7" fill="#85d8aa"/>
+  <text x="77" y="30" fill="#f1f2df" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing=".3">GOBLIN’S CODE</text>
+  <text x="78" y="51" fill="#adb8aa" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="4">GAMES STUDIO</text>
+</svg>
